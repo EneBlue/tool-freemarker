@@ -12,6 +12,7 @@
 <input id="name" type="text" /> <button onclick="createMarker();">创建</button>
 
 <div id="marker_content"></div>
+
 ${marker }
 
 <script type="text/javascript">

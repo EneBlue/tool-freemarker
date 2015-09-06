@@ -30,6 +30,7 @@ public class SimpleAjaxController {
 			e.printStackTrace();
 		}
 		
+		
 		return "";
 	}
 }
