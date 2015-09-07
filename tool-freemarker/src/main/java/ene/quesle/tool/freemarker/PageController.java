@@ -24,17 +24,12 @@ public class PageController {
 	
 	@RequestMapping("/")
 	public String root(){
-		return "index";
+		return "redirect:/index";
 	}
 
-	/*@RequestMapping("/**")
-	public String roots(){
-		return "index";
-	}*/
-	
 	@RequestMapping("/root")
 	public String rootPage(){
-		return "index";
+		return "redirect:/index";
 	}
 	
 	@RequestMapping("/r")
