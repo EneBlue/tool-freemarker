@@ -39,7 +39,7 @@ public class SimpleAjaxController {
 		params.put("no", Math.random());
 		
 		// 当前的时间，生成模板的时间
-		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss.sss");
+		SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.sss");
 		params.put("createTime", format.format(new Date()));
 
 		try {

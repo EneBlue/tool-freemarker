@@ -37,7 +37,7 @@ function createMarker(){
 	  success: function (data){
 		  $("#marker_content").prepend(data);
 	  }
-  }) 
+  });
 }
 
 function myPrint(obj){

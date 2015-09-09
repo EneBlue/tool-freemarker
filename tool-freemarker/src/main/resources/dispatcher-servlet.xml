@@ -34,6 +34,8 @@
 	<mvc:resources location="/resources/" mapping="/resources/**" />
 	<mvc:resources location="/views/" mapping="/views/**" />
 
+	<mvc:view-controller path="/" view-name="redirect:/index" />
+
 	<!-- 定义JSP文件的位置 -->
 	<bean id="jspViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
